@@ -1,0 +1,7 @@
+title: "MechanicalHans"
+
+markdown: kramdown
+theme: null
+plugins:
+- jekyll-seo-tag
+- jemoji

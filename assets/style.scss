@@ -1,0 +1,38 @@
+---
+---
+
+html {
+    max-width: 768px;
+    margin: 0px auto;
+}
+
+body {
+    margin: 24px;
+    line-height: 1.4;
+    font-size: 20px;
+}
+
+body * {
+    max-width: 100%;
+}
+
+img:not(.emoji) {
+    display: block;
+    margin: auto;
+}
+
+table {
+    width: 100%;
+}
+
+iframe {
+    display: block;
+    margin: auto;
+    border: none;
+}
+
+footer {
+    text-align: center;
+}
+
+@import "solarized";
