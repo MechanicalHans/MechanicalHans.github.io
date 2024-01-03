@@ -1,0 +1,9 @@
+<iframe
+    src="https://www.youtube.com/embed/{{ include.id }}"
+    {% if include.title %}
+    title="{{ include.title }}"
+    {% endif %}
+    width="560"
+    height="315"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen"
+></iframe>
